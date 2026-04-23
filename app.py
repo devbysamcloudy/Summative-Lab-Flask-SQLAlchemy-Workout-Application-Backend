@@ -38,7 +38,7 @@ def create_workout():
 
 @app.route("/workouts/<int:id>", methods=["DELETE"])
 def delete_workout(id):
-    workout = Workout.query.get(id)
+    workout = db.session.get(Workout, id)
     if not workout:
         return {"error": "Workout not found"}, 404
 
@@ -67,7 +67,7 @@ def create_exercise():
 
 @app.route("/exercises/<int:id>", methods=["DELETE"])
 def delete_exercise(id):
-    exercise = Exercise.query.get(id)
+    exercise = db.session.get(Exercise, id)
     if not exercise:
         return {"error": "Exercise not found"}, 404
 
