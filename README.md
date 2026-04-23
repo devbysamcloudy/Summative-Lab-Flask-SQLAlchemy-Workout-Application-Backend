@@ -102,3 +102,14 @@ POST /workouts
 - The API does not include update routes as per the requirements.
 - Validations are implemented at the model, schema, and database level.
 - Exercises are reusable across multiple workouts.
+
+---
+
+## Author
+- GitHub: [devbysamcloudy](https://github.com/devbysamcloudy/Summative-Lab-Flask-SQLAlchemy-Workout-Application-Backend)
+- Email: snganga685@gmail.com
+
+---
+
+## License
+This project is licensed under the [MIT License](LICENSE).
