@@ -2,9 +2,6 @@
 instance/
 *.db
 
-# Migrations
-migrations/
-
 # Python
 __pycache__/
 *.py[cod]

@@ -34,7 +34,18 @@ Additional details like sets and reps can be stored when linking an exercise to 
 5. Install dependencies:
    pip install -r requirements.txt
 
-   
+---
+
+## Setting Up the Database
+
+1. Initialize the migration repository:
+   flask db init
+
+2. Generate the migration script:
+   flask db migrate -m "initial migration"
+
+3. Apply the migrations to create the database:
+   flask db upgrade
 
 ---
 
