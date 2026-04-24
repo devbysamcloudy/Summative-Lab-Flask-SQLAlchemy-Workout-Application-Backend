@@ -23,7 +23,7 @@ Additional details like sets and reps can be stored when linking an exercise to 
    git clone <https://github.com/devbysamcloudy/Summative-Lab-Flask-SQLAlchemy-Workout-Application-Backend>
 
 2. Navigate into the project folder:
-   cd workout-api
+   cd Summative-Lab-Flask-SQLAlchemy-Workout-Application-Backend
 
 3. Create a virtual environment:
    python -m venv venv
