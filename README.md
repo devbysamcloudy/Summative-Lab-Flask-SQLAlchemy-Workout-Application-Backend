@@ -20,7 +20,7 @@ Additional details like sets and reps can be stored when linking an exercise to 
 ## Installation Instructions
 
 1. Clone the repository:
-   git clone <your-repo-link>
+   git clone <https://github.com/devbysamcloudy/Summative-Lab-Flask-SQLAlchemy-Workout-Application-Backend>
 
 2. Navigate into the project folder:
    cd workout-api
